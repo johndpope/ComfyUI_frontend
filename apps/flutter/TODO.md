@@ -23,19 +23,19 @@ This file tracks remaining work for the ComfyUI Flutter port.
 - [x] Selection highlighting
 
 ### Node Search Panel
-- [ ] Fuzzy search with ranking (uses existing NodeRegistry.search())
-- [ ] Category tree navigation
-- [ ] Recent nodes section
-- [ ] Keyboard navigation
-- [ ] Double-click to add node
+- [x] Fuzzy search with ranking (uses existing NodeRegistry.search())
+- [x] Category tree navigation
+- [x] Recent nodes section
+- [x] Keyboard navigation
+- [x] Double-click to add node
 - [ ] Drag to add at position
-- [ ] Display node descriptions
+- [x] Display node descriptions
 
 ### Properties Panel
-- [ ] Display selected node info
-- [ ] Edit widget values
-- [ ] Show input/output connections
-- [ ] Node settings (muted, bypassed)
+- [x] Display selected node info
+- [x] Edit widget values
+- [x] Show input/output connections
+- [x] Node settings (muted, bypassed)
 
 ## Phase 5: State Management
 
