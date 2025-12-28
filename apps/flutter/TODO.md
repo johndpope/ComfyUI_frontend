@@ -44,26 +44,26 @@ This file tracks remaining work for the ComfyUI Flutter port.
 - [x] NodeRegistryProvider for node definitions
 - [x] SelectionProvider for selected nodes/edges
 - [x] ExecutionProvider for execution state
-- [ ] ConnectionProvider for WebSocket connection state
+- [x] ConnectionProvider for WebSocket connection state
 - [ ] Settings providers
 
 ## Phase 6: Backend Integration
 
 ### WebSocket Service
-- [ ] WebSocket connection management
-- [ ] Automatic reconnection
-- [ ] Message parsing (execution progress, status, errors)
-- [ ] Execution queue status tracking
-- [ ] Image preview streaming
-- [ ] Error handling and recovery
+- [x] WebSocket connection management
+- [x] Automatic reconnection
+- [x] Message parsing (execution progress, status, errors)
+- [x] Execution queue status tracking
+- [x] Image preview streaming
+- [x] Error handling and recovery
 
 ### ComfyAPI Service
-- [ ] /object_info endpoint (node definitions)
-- [ ] /prompt endpoint (queue execution)
-- [ ] /queue endpoint (queue status)
-- [ ] /history endpoint (execution history)
-- [ ] /view endpoint (image viewing)
-- [ ] /upload/image endpoint (image upload)
+- [x] /object_info endpoint (node definitions)
+- [x] /prompt endpoint (queue execution)
+- [x] /queue endpoint (queue status)
+- [x] /history endpoint (execution history)
+- [x] /view endpoint (image viewing)
+- [x] /upload/image endpoint (image upload)
 
 ## Phase 7: Advanced Features
 
