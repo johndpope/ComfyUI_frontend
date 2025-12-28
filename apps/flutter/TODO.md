@@ -45,7 +45,7 @@ This file tracks remaining work for the ComfyUI Flutter port.
 - [x] SelectionProvider for selected nodes/edges
 - [x] ExecutionProvider for execution state
 - [x] ConnectionProvider for WebSocket connection state
-- [ ] Settings providers
+- [x] Settings providers (canvas, edge, node, behavior, execution settings)
 
 ## Phase 6: Backend Integration
 
@@ -74,14 +74,14 @@ This file tracks remaining work for the ComfyUI Flutter port.
 - [ ] Input/output mapping
 
 ### Reroute Nodes
-- [ ] Reroute node type
-- [ ] Visual rendering
-- [ ] Connection chaining
+- [x] Reroute node type
+- [ ] Visual rendering (widget)
+- [x] Connection chaining
 
 ### Workflow Management
-- [ ] Save/load workflow
-- [ ] Export to API format
-- [ ] Import from JSON
+- [x] Save/load workflow (WorkflowService)
+- [x] Export to API format
+- [x] Import from JSON
 - [ ] Undo/redo support
 
 ## Testing
