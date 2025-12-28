@@ -5,22 +5,22 @@ This file tracks remaining work for the ComfyUI Flutter port.
 ## Phase 4: UI Components
 
 ### ComfyNode Widget
-- [ ] Node header with title and category color
-- [ ] Input slots with labels and connection dots
-- [ ] Output slots with labels and connection dots
-- [ ] Widget rendering for INT, FLOAT, STRING, COMBO inputs
-- [ ] Collapsed state support
-- [ ] Selection highlighting
-- [ ] Muted/bypassed visual states
+- [x] Node header with title and category color
+- [x] Input slots with labels and connection dots
+- [x] Output slots with labels and connection dots
+- [x] Widget rendering for INT, FLOAT, STRING, COMBO inputs
+- [x] Collapsed state support
+- [x] Selection highlighting
+- [x] Muted/bypassed visual states
 
 ### ComfyEdge Widget
-- [ ] Bezier curve rendering (default)
-- [ ] Step edge type
-- [ ] Smoothstep edge type
-- [ ] Straight edge type
-- [ ] Type-based coloring
-- [ ] Animation support
-- [ ] Selection highlighting
+- [x] Bezier curve rendering (default)
+- [x] Step edge type
+- [x] Smoothstep edge type
+- [x] Straight edge type
+- [x] Type-based coloring
+- [x] Animation support
+- [x] Selection highlighting
 
 ### Node Search Panel
 - [ ] Fuzzy search with ranking (uses existing NodeRegistry.search())
@@ -86,6 +86,7 @@ This file tracks remaining work for the ComfyUI Flutter port.
 
 ## Testing
 
+- [x] Unit tests for core functionality (77 tests passing)
 - [ ] Integration tests for graph operations
 - [ ] Widget tests for UI components
 - [ ] Mock WebSocket for testing
