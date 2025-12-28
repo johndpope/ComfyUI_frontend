@@ -28,3 +28,32 @@ This bootstraps the monorepo with dependencies, builds, tests, and dev server ve
 - Use `prefix:` format: `feat:`, `fix:`, `test:`
 - Add "Fixes #n" to PR descriptions
 - Never mention Claude/AI in commits
+
+## Flutter Port (apps/flutter/)
+
+A Flutter implementation of the ComfyUI frontend, designed to work with the ComfyUI backend.
+
+### Key Files
+
+- `core/nodes/` - Node definitions, registry, and slot types
+- `core/graph/` - Graph container, validation, and topological sort
+- `core/serialization/` - Workflow and API format serialization
+- `test/` - Unit tests for all core functionality
+
+### Testing Flutter
+
+Tests are run from the xyflow example directory:
+```bash
+cd /path/to/xyflow/packages/xyflow_flutter/example
+flutter test test/comfyui/
+```
+
+### Implementation Status
+
+- **Core Data Models**: Complete (SlotType, NodeDefinition, NodeRegistry)
+- **Graph Core**: Complete (ComfyGraph, validation, topological sort)
+- **Serialization**: Complete (workflow JSON, API format)
+- **UI Components**: In progress
+- **Backend Integration**: Pending
+
+See `apps/flutter/IMPLEMENTATION_PLAN.md` for detailed roadmap.
