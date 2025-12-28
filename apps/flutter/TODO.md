@@ -40,10 +40,10 @@ This file tracks remaining work for the ComfyUI Flutter port.
 ## Phase 5: State Management
 
 ### Riverpod Providers
-- [ ] GraphNotifier for graph state
-- [ ] NodeRegistryProvider for node definitions
-- [ ] SelectionProvider for selected nodes/edges
-- [ ] ExecutionProvider for execution state
+- [x] GraphNotifier for graph state
+- [x] NodeRegistryProvider for node definitions
+- [x] SelectionProvider for selected nodes/edges
+- [x] ExecutionProvider for execution state
 - [ ] ConnectionProvider for WebSocket connection state
 - [ ] Settings providers
 
